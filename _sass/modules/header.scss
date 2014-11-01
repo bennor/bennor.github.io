@@ -1,0 +1,48 @@
+header.site {
+    text-align: left;
+    background: $secondary-color;
+    .logo {
+        display:inline-block;
+        padding:1rem 1.25rem;
+        background:$accent-color;
+        color:$background-color;
+        
+        font-family: $headline-font;
+        font-weight: $headline-weight;
+        text-transform: uppercase;
+        font-size:2.25em;
+        line-height: 2.25rem;
+        
+        span { 
+            display: none;
+        }
+        &:hover { 
+            background: $hover-link-color;
+        }
+    }
+    
+    nav {
+        margin-top:0;
+        float:right;
+        padding:1rem;
+        font-size:1.25em;
+        line-height:2.25rem;
+        font-family: $headline-font;
+        
+        ul, li { 
+            list-style-type: none;    
+            padding:0;
+            margin:0;
+        }
+        
+        a { 
+            color: $alt-background-color; 
+            border-bottom: 3px solid $secondary-color;
+            transition: border-bottom-color .5s;
+        }
+        a:hover { 
+            border-bottom-color: $hover-link-color; 
+        }
+        
+    }
+}

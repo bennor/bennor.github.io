@@ -1,0 +1,11 @@
+---
+# This ensures Jekyll reads the file to be transformed into CSS
+---
+@import "normalize";
+
+@import "_settings";
+@import "base";
+@import "layout";
+
+@import "modules/header";
+@import "modules/footer";

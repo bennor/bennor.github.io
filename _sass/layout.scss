@@ -1,0 +1,17 @@
+body {
+    display:flex;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+main {
+    flex:1;   
+}
+
+div.wrap {
+    max-width: 66rem;
+    margin:0 auto;
+    text-align: left;
+    padding:0 1rem;
+}

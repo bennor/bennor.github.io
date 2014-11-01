@@ -1,0 +1,27 @@
+// Colours
+$background-color: #fff;
+$text-color: #333;
+
+$accent-color: #0267bd;
+$alt-background-color: #f1f2f6;
+
+$primary-color: #03265c;
+$secondary-color: #131f41;
+
+$link-color: #0594f3;
+$visited-link-color: darken($link-color, 10%);
+$hover-link-color: lighten($link-color, 10%);
+$active-link-color: lighten($link-color, 15%);
+
+$twitter-color:#00aced;
+$github-color:#4183c4;
+$stackoverflow-color:#f90;
+$mail-color:#e24e42;
+
+// Dimensions
+$line-size: 4px;
+
+// Typography
+$copy-font: "Merriweather";
+$headline-font: "Lato";
+$headline-weight: 900; 
